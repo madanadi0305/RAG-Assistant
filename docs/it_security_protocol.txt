@@ -1,0 +1,13 @@
+NEXUS ENTERPRISE CORP - INFORMATION TECHNOLOGY SECURITY PROTOCOL
+DOCUMENT ID: SEC-2026-REF99
+
+1.1 PASSWORD COMPLEXITY AND LIFECYCLE
+All corporate accounts must utilize passwords that meet the following threshold requirements:
+* Minimum length: 14 characters.
+* Must contain at least: 1 uppercase letter, 1 lowercase letter, 2 numerical digits, and 2 special characters (!, @, #, $, %, etc.), no repeating characters,no more than 2 consecutive characters.
+* Expiration: Passwords must be rotated every 90 days. The system will restrict users from reusing any of their previous 5 passwords.
+
+2.2 MULTI-FACTOR AUTHENTICATION (MFA) & DEVICE ACCESS
+MFA is mandatory for all remote access points, including the corporate VPN and AWS staging environments.
+* Approved Authentication Methods: Okta Verify app push notifications or hardware YubiKeys. SMS-based 2FA tokens are strictly prohibited due to SIM-swapping vulnerabilities.
+* Incident Reporting: If an employee loses a corporate-issued laptop or suspects an account compromise, they must immediately call the IT Emergency Hotline at extension 4404 or send an encrypted message to #security-alerts on Slack. Lost devices will be remotely wiped within 15 minutes of reporting.

@@ -1,0 +1,45 @@
+2026-05-27 11-08-50[INFO] root - Environment defined successfully
+2026-05-27 11-08-50[INFO] root - Instantiating connection with chromadb
+2026-05-27 11-08-51[INFO] httpx - HTTP Request: GET http://localhost:8000/api/v2/auth/identity "HTTP/1.1 200 OK"
+2026-05-27 11-08-51[INFO] httpx - HTTP Request: GET http://localhost:8000/api/v2/tenants/default_tenant "HTTP/1.1 200 OK"
+2026-05-27 11-08-51[INFO] httpx - HTTP Request: GET http://localhost:8000/api/v2/tenants/default_tenant/databases/default_database "HTTP/1.1 200 OK"
+2026-05-27 11-08-51[INFO] root - Chroma server initialized
+2026-05-27 11-08-53[INFO] httpx - HTTP Request: GET http://localhost:8000/api/v2/tenants/default_tenant/databases/default_database/collections "HTTP/1.1 200 OK"
+2026-05-27 11-08-54[INFO] httpx - HTTP Request: POST http://localhost:8000/api/v2/tenants/default_tenant/databases/default_database/collections "HTTP/1.1 200 OK"
+2026-05-27 11-09-26[INFO] httpx - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-05-27 11-09-26[INFO] httpx - HTTP Request: POST http://localhost:8000/api/v2/tenants/default_tenant/databases/default_database/collections/043b07aa-7ea1-4b1c-96c0-843cc5576cae/query "HTTP/1.1 200 OK"
+2026-05-27 11-09-31[INFO] httpx - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-27 11-11-52[INFO] httpx - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-05-27 11-11-52[INFO] httpx - HTTP Request: POST http://localhost:8000/api/v2/tenants/default_tenant/databases/default_database/collections/043b07aa-7ea1-4b1c-96c0-843cc5576cae/query "HTTP/1.1 200 OK"
+2026-05-27 11-11-54[INFO] httpx - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-27 11-23-15[INFO] root - Environment defined successfully
+2026-05-27 11-23-15[INFO] root - Instantiating connection with chromadb
+2026-05-27 11-23-16[INFO] httpx - HTTP Request: GET http://localhost:8000/api/v2/auth/identity "HTTP/1.1 200 OK"
+2026-05-27 11-23-16[INFO] httpx - HTTP Request: GET http://localhost:8000/api/v2/tenants/default_tenant "HTTP/1.1 200 OK"
+2026-05-27 11-23-16[INFO] httpx - HTTP Request: GET http://localhost:8000/api/v2/tenants/default_tenant/databases/default_database "HTTP/1.1 200 OK"
+2026-05-27 11-23-16[INFO] root - Chroma server initialized
+2026-05-27 11-23-18[INFO] httpx - HTTP Request: GET http://localhost:8000/api/v2/tenants/default_tenant/databases/default_database/collections "HTTP/1.1 200 OK"
+2026-05-27 11-23-18[INFO] root - Collection already exists.Can't ingest documents..
+2026-05-27 11-23-18[INFO] httpx - HTTP Request: POST http://localhost:8000/api/v2/tenants/default_tenant/databases/default_database/collections "HTTP/1.1 200 OK"
+2026-05-27 11-23-19[INFO] httpx - HTTP Request: POST http://localhost:8000/api/v2/tenants/default_tenant/databases/default_database/collections "HTTP/1.1 200 OK"
+2026-05-27 11-23-19[INFO] httpx - HTTP Request: POST http://localhost:8000/api/v2/tenants/default_tenant/databases/default_database/collections/043b07aa-7ea1-4b1c-96c0-843cc5576cae/get "HTTP/1.1 200 OK"
+2026-05-27 11-23-19[INFO] root - Deleting existing chunks and uploading new
+2026-05-27 11-23-19[INFO] httpx - HTTP Request: POST http://localhost:8000/api/v2/tenants/default_tenant/databases/default_database/collections/043b07aa-7ea1-4b1c-96c0-843cc5576cae/delete "HTTP/1.1 200 OK"
+2026-05-27 11-23-19[INFO] root - Creating document
+2026-05-27 11-23-20[INFO] httpx - HTTP Request: POST http://localhost:8000/api/v2/tenants/default_tenant/databases/default_database/collections "HTTP/1.1 200 OK"
+2026-05-27 11-23-20[INFO] httpx - HTTP Request: POST http://localhost:8000/api/v2/tenants/default_tenant/databases/default_database/collections/043b07aa-7ea1-4b1c-96c0-843cc5576cae/get "HTTP/1.1 200 OK"
+2026-05-27 11-23-20[INFO] root - Deleting existing chunks and uploading new
+2026-05-27 11-23-20[INFO] httpx - HTTP Request: POST http://localhost:8000/api/v2/tenants/default_tenant/databases/default_database/collections/043b07aa-7ea1-4b1c-96c0-843cc5576cae/delete "HTTP/1.1 200 OK"
+2026-05-27 11-23-20[INFO] root - Creating document
+2026-05-27 11-23-21[INFO] root - Chunks appended successfully
+2026-05-27 11-23-21[INFO] httpx - HTTP Request: POST http://localhost:8000/api/v2/tenants/default_tenant/databases/default_database/collections "HTTP/1.1 200 OK"
+2026-05-27 11-23-22[INFO] httpx - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-05-27 11-23-22[INFO] httpx - HTTP Request: GET http://localhost:8000/api/v2/pre-flight-checks "HTTP/1.1 200 OK"
+2026-05-27 11-23-22[INFO] httpx - HTTP Request: POST http://localhost:8000/api/v2/tenants/default_tenant/databases/default_database/collections/043b07aa-7ea1-4b1c-96c0-843cc5576cae/upsert "HTTP/1.1 200 OK"
+2026-05-27 11-23-22[INFO] root - Chunks added successfully
+2026-05-27 11-25-20[INFO] httpx - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-05-27 11-25-20[INFO] httpx - HTTP Request: POST http://localhost:8000/api/v2/tenants/default_tenant/databases/default_database/collections/043b07aa-7ea1-4b1c-96c0-843cc5576cae/query "HTTP/1.1 200 OK"
+2026-05-27 11-25-23[INFO] httpx - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-27 11-27-29[INFO] httpx - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-05-27 11-27-29[INFO] httpx - HTTP Request: POST http://localhost:8000/api/v2/tenants/default_tenant/databases/default_database/collections/043b07aa-7ea1-4b1c-96c0-843cc5576cae/query "HTTP/1.1 200 OK"
+2026-05-27 11-27-31[INFO] httpx - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
